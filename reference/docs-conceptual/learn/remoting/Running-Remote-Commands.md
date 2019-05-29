@@ -19,7 +19,7 @@ For more information about remoting in PowerShell Core, see the following articl
 
 ## Windows PowerShell Remoting Without Configuration
 
-Many Windows PowerShell cmdlets have the ComputerName parameter that enables you to collect data
+Some Windows PowerShell cmdlets have the ComputerName parameter that enables you to collect data
 and change settings on one or more remote computers. These cmdlets use varying communication
 protocols and work on all Windows operating systems without any special configuration.
 
@@ -30,9 +30,6 @@ These cmdlets include:
 - [Clear-EventLog](/powershell/module/microsoft.powershell.management/clear-eventlog)
 - [Get-EventLog](/powershell/module/microsoft.powershell.management/get-eventlog)
 - [Get-HotFix](/powershell/module/microsoft.powershell.management/get-hotfix)
-- [Get-Process](/powershell/module/microsoft.powershell.management/get-process)
-- [Get-Service](/powershell/module/microsoft.powershell.management/get-service)
-- [Set-Service](/powershell/module/microsoft.powershell.management/set-service)
 - [Get-WinEvent](/powershell/module/microsoft.powershell.diagnostics/get-winevent)
 - [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject)
 
